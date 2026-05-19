@@ -1,0 +1,223 @@
+/* Reset básico de margin e padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #e0f7fa, #b9fbc0); /* Gradiente mais suave */
+    color: #333333;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #343a40; /* Barra de navegação escura */
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #444; /* Linha de separação sutil */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff; /* Cor do texto da marca */
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #ffffff; /* Cor do texto dos links */
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #007BFF; /* Cor ao passar o mouse */
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.txt1 {
+    font-size: 3rem;
+    font-style: oblique;
+    background-image: linear-gradient(to bottom right, #4ED6FF, #3712BD, #4D67FA, #FFFFFF, #00C3FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.img1 {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.txt2 {
+    color: #555555;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* Cor de fundo do card */
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.875rem;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #ffffff; /* Cor de fundo do rodapé */
+    color: #333333;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd; /* Linha de separação sutil */
+}
+
+/* Carrossel */
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.carousel-prev, .carousel-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
