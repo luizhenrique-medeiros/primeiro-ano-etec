@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String Nome;
+	    double imc=0.00,altura=0.00,peso=0.00;
+	    Scanner leia=new Scanner(System.in);
+	    System.out.println("digite o seu nome");
+	    Nome=leia.next();
+	    System.out.println("digite a sua altura");
+	    altura=leia.nextDouble();
+	    System.out.println("digite o seu peso");
+	    peso=leia.nextDouble();
+	    imc=peso/(altura*altura);
+	     System.out.println("seu peso é" + peso + "sua altura é" + altura + "seu nome é" + Nome + "seu imc é" + imc);
+	    if(imc<=16){
+	        System.out.println("você é muito magro");
+	    }
+	    if(imc > 16 && imc<=20){
+	        System.out.println("você está com magreza moderada");
+	    }
+	    if(imc >20 && imc<=30){
+	        System.out.println("você está no peso ideal");
+	    }
+	}
+}

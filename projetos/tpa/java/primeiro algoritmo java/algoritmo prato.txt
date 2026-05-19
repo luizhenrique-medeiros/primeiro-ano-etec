@@ -1,0 +1,44 @@
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    double pp=0.00,sa=0.00,so=0.00,total=0.00,preço=0.00,preçop=0.00,preçosa=0.00,preçoso=0.00;
+	    Scanner leia = new Scanner(System.in);
+        System.out.println("digite o numero do prato principal");
+        pp = leia.nextDouble();
+        System.out.println("digite o numero da salado");
+        sa = leia.nextDouble();
+        System.out.println("digite o numero da sobremesa");
+        so = leia.nextDouble();
+        if (pp==1) {
+            preçop=50;
+        }
+        if(pp==2) {
+            preçop=45;
+        }
+        if(pp==3) {
+            preçop=40;
+        }
+        if(sa==1){
+            preçosa=10;
+        }
+        if(sa==2){
+            preçosa=7;
+            
+        }
+             if(so==1){
+                preçoso=8;
+            }
+            if(so==2){
+                preçoso=7;
+            }
+            if(so==3){
+                preçoso=5;
+            }
+            preço=preçop+preçosa+preçoso;
+            total=preço+preço/100;
+            System.out.println("o usuario tera que pagar "+ total);
+        }
+    }

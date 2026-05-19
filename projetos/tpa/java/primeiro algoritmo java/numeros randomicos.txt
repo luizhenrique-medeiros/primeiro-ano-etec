@@ -1,0 +1,36 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	  int n1, n2, n3 , n4, n5, n6;
+	  Scanner leia = new Scanner(System.in);
+	 Random nro = new Random();
+	 n1 = nro.nextInt(60);
+	 n2 = nro.nextInt(60);
+	 n3 = nro.nextInt(60);
+	 n4 = nro.nextInt(60);
+	 n5 = nro.nextInt(60);
+	 n6 = nro.nextInt(60);
+	     if(n1==0){
+        n1 = 1;
+    }
+    if(n2==0){
+        n2 = 1;
+    }
+    if(n3==0){
+        n3 = 1;
+    }
+    if(n4==0){
+        n4 = 1;
+    }
+    if(n5==0){
+        n5 = 1;
+    }
+    if(n6==0){
+        n6 = 1;
+    }
+    System.out.println("Seus Números são: " + n1 + "|" + n2 + "|" + n3 + "|" + n4 + "|" + n5 + "|" + n6);
+
+	}
+}

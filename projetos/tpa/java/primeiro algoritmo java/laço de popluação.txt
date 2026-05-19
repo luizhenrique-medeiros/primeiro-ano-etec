@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner leia= new Scanner (System.in);
+	double sa=0.00,per=0.00,fi=0.00,totalfi=0.00,totalsa=0.00,por=0.00,popu=0.00,mediasa=0.00,mediafi=0.00;
+
+	for(sa=0.00; sa >= 0.00; sa++){
+	    System.out.println("digite o salario");
+	    sa=leia.nextDouble();
+	    if(sa>=0.00){
+	    
+	    
+	    totalsa=sa+totalsa;
+	    
+	    if(sa<1500){
+	        por++;
+	        }
+	        System.out.println("digite o numero de filhos");
+	    fi=leia.nextDouble();
+	    
+	    totalfi=fi+totalfi;
+	    popu++;
+	    }
+	}
+	
+	mediafi=totalfi/popu;
+	mediasa=totalsa/popu;
+	per=por/popu*100;
+	
+	
+	System.out.println("a media de filhos foi =" + mediafi + "a media de salario foi =" + mediasa + "a porcentagem de pessoas que recebem menos que 1500 é" + per );
+	
+	
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int mes,ano,dia,n1,mesres,anores;
+	    Scanner leia=new Scanner(System.in);
+	    System.out.println("digite um numero");
+	    n1=leia.nextInt();
+	    ano=n1/365;
+	    anores=n1%365;
+	    mes=anores/30;
+	    mesres=anores%30;
+	    dia=mesres;
+	    System.out.println("ano" + ano + "mês" + mes + "dia" + dia);
+
+	}
+}

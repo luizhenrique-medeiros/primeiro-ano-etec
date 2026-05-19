@@ -1,0 +1,31 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int num=0,maior=0,menor=0,média,soma=0,cont;
+		System.out.println("digite um numero");
+		num=leia.nextInt();
+		for (cont=0;cont<5;cont=cont+1) 
+		do{
+		    
+		    if(num<=0){
+		        System.out.println("digite um numero");
+		        num=leia.nextInt();
+		    }}while(num!=00);
+		    do{
+		        if(num>maior){
+		            maior=num;
+		        }
+		        if(num<menor){
+		            menor=num;
+		        }
+		         soma=soma+num;
+		         
+		         } while(num!=000);
+		         média=soma/100;
+		         System.out.println("maior =" +maior+ "menor =" +menor+ "média =" +média);
+		
+	}
+}
