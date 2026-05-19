@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
+  
+header {
+  background-image: url(../imagens/etec.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  .item {
+    margin-bottom: 50px;
+  }
+  
+  .item img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .item h3 {
+    text-align: center;
+  }
+  
+  .item p {
+    text-align: center;
+  }
+  .text {
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    border: 10px solid rgb(240, 8, 8);
+    padding: 10px;
+    margin: 10px;
+
+  }
+  .color{
+    position: relative;
+    left: 130px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: 880px;
+    color: coral;
+    margin: 5px;
+    padding: 10px;
+    border: 10px solid rgb(221, 106, 12);
+  }
+

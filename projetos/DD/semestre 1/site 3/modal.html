@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title> 
+    <style>
+        .button{
+            width: 200px;
+            height: 60px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 166, 0);
+            border: none;
+            border-radius: 15px;
+            box-shadow: 1px 5px 5px rgb(128, 0, 0);
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #box{
+            width: 400px;
+            height: 300px;
+            background-color: rgb(255, 153, 0);
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <button class="button" onclick="box.showModal()">clique aqui</button>
+    <dialog id="box" onclick="box.close()">
+      <!-- <button onclick="box.close()" style="position: absolute; left: 90%; background-color: rgb(255, 0, 0); border-radius: 50%; border: none; color: rgb(0, 0, 0);">x</button>-->
+        <h1>modal</h1>
+    </dialog>
+
+</body>
+</html>

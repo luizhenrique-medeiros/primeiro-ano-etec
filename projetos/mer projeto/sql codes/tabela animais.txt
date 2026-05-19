@@ -1,0 +1,11 @@
+SELECT COUNT(*), tb_tipo_classificacao FROM tb_animais GROUP BY tb_tipo_classificacao;
+
+SELECT tb_nome_cientifico, tb_apelido, YEAR(NOW()) - YEAR(tb_dt_nascimento) FROM tb_animas WHERE tb_genero = 1;
+
+SELECT tb_nome_popular, tb_apelido, NOW() - tb_dt_chegada FROM tb_animais;
+
+SELECT tb_num_jaula, tb_cod_animal FROM tb_jaula WHERE tb_cod_setor = 83;
+
+SELECT * FROM tb_tratador WHERE tb_nome LIKE '%o';
+
+SELECT NOW() - tb_dt_chegada FROM tb_animais; 

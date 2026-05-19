@@ -1,0 +1,122 @@
+/* Reset básico de margin e padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #e0f7fa, #b9fbc0); /* Gradiente mais suave */
+    color: #333333;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #343a40; /* Barra de navegação escura */
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #444; /* Linha de separação sutil */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff; /* Cor do texto da marca */
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #ffffff; /* Cor do texto dos links */
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #007BFF; /* Cor ao passar o mouse */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* Ajusta a altura para compensar o cabeçalho e o rodapé */
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input, .form-container textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-container button {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #ffffff; /* Cor de fundo do rodapé */
+    color: #333333;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd; /* Linha de separação sutil */
+}
