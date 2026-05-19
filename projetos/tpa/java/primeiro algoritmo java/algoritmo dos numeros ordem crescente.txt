@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    double t1=0.00,t2=0.00,t3=0.00;
+	    Scanner leia= new Scanner(System.in);
+	    System.out.println("digite o primeiro numero");
+	    t1=leia.nextDouble();
+	    System.out.println("digite o segundo numero");
+	    t2=leia.nextDouble();
+	    System.out.println("digite o terceiro numero");
+	    t3=leia.nextDouble();
+	    if(t1<=t2 && t2<=t3){
+	        System.out.println("a ordem ficou:" + t1 + "." + t2 + "." + t3);
+	    } 
+	    
+	  }
+	}

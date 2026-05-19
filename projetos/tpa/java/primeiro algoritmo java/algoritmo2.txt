@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		double n1=0.00, n2=0.00, media=0.00;
+		Scanner leia=new Scanner(System.in);
+		System.out.println("digite a primeira nota do aluno");
+		n1=leia.nextDouble();
+		System.out.println("digite a segunda nota do aluno");
+		n2=leia.nextDouble();
+		media=(n1+n2)/2;
+		System.out.println("a media do aluno foi" + media);
+		if(media<5) {
+		    System.out.println("reprovado");
+		}
+		else{
+		    System.out.println("aprovado");
+		}
+		
+	}
+}

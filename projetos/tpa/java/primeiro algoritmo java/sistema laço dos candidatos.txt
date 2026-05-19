@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int cd1=0,cd2=0,cd3=0,v1,p1,p2,p3,total;
+		System.out.println("o numero do candidato 1 é 20");
+		System.out.println("o numero do candidato 2 é 40");
+		System.out.println("o numero do candidato 3 é 60");
+		do{
+		    System.out.println("digite o número do candidato");
+		    v1=leia.nextInt();
+		    if(v1==20){
+		        cd1=cd1+1;
+		    }
+		    if(v1==40){
+		        cd2=cd2+1;
+		    }
+		    if(v1==60){
+		        cd3=cd3+1;
+    		    }}while(v1!=0); 
+		    total=cd1+cd2+cd3;
+		    p1=cd1*100/total;
+		    p2=cd2*100/total;
+		    p3=cd3*100/total;
+		    System.out.println("candidato 1 teve:votos ="+cd1+"porcentagem ="+p1);
+		    System.out.println("candidato 2 teve:votos ="+cd2+"porcentagem ="+p2);
+		    System.out.println("candidato 3 teve:votos ="+cd3+"porcentagem ="+p3);
+		    
+		
+	}
+}

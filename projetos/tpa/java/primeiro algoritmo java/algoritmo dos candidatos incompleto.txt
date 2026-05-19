@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String c1,c2,c3;
+	    double totalvotos=0.00,perc1=0.00,perc2=0.00,perc3=0.00;
+	    Scanner leia= new Scanner(System.in);
+	    System.out.println("digite o nome do candidato 1");
+	    c1=leia.nextDouble();
+	    
+	}
+}
