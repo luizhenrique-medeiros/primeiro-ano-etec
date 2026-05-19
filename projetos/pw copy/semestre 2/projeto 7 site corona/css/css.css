@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left-section {
+    width: 25%;
+}
+
+.earth-image {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.language-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flag {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.info-btn {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.virus-icon {
+    width: 50px;
+}
+
+.form {
+    width: 45%;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input, .form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.right-section {
+    width: 25%;
+}
+
+.etec-logo {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-btn {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stats {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.stats p {
+    margin-bottom: 10px;
+}
+.c {
+    text-align: center;
+}
+.c1 {
+    text-align: center;
+    color: black;
+}
+

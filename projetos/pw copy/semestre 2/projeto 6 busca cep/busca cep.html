@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca CEP</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/função.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Busca CEP</h1>
+        <input type="text" id="nro" placeholder="Digite o CEP" maxlength="8">
+        <button onclick="buscaCEP()">Buscar</button>
+        <div class="result">
+            <div><span>Rua:</span> <span id="rua">-</span></div>
+            <div><span>Bairro:</span> <span id="bairro">-</span></div>
+            <div><span>Cidade:</span> <span id="cidade">-</span></div>
+            <div><span>Estado:</span> <span id="uf">-</span></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
